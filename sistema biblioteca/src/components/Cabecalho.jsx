@@ -24,7 +24,7 @@ export default function Cabecalho() {
                 <button onClick={() => navigate('/inclusao')}>
                     <img src="add.png"/>Adicionar Livro
                 </button>
-        </div>
+            </div>
             
         </>
     )

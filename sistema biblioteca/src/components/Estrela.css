@@ -1,0 +1,14 @@
+.estrelas {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  align-items: center;
+}
+
+.estrelas svg {
+  width: 20px;
+  height: 20px;
+  color: #ffd700;
+  flex-shrink: 0;
+  display: inline-block;
+}

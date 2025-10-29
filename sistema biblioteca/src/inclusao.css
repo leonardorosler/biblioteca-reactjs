@@ -69,3 +69,7 @@
     transition: background-color 0.2s, transform 0.1s;
 }
 
+.incluiLivros button:hover {
+    background-color: #7a46b2; 
+    transform: scale(1.05);
+}

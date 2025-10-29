@@ -54,3 +54,27 @@
     display: flex;
     gap: 1rem;
 }
+.botoes__pesquisa {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.botoes__pesquisa button {
+    background-color: #8f56c7;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: background-color 0.2s, transform 0.1s;
+}
+
+.botoes__pesquisa button:hover {
+    background-color: #7a46b2; 
+    transform: scale(1.05);
+}
+

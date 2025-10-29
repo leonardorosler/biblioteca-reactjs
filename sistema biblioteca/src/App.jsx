@@ -35,7 +35,7 @@ function App() {
   return (
     <>  
       <Cabecalho />  
-      <ListaLivros livros={livros} />
+      <ListaLivros livros={livros} setLivros={setLivros} />
     </>
   )
 }

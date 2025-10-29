@@ -1,3 +1,17 @@
+.listaCards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.containerLivros {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
 .cardLivro {
   display: flex;
   gap: 20px;
@@ -5,46 +19,87 @@
   border-radius: 12px;
   padding: 20px;
   transition: transform 0.2s, box-shadow 0.2s;
-  margin-bottom: 20px;
-  width: 90%;
+  width: 60rem;
+  max-width: 800px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  position: relative;
 }
-.containerLivros {
-  display: flex;
-  gap: 20px;
-  justify-content: center; 
-}
+
 .cardLivro:hover {
   transform: translateY(-4px);
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
 }
-.cardLivro img {
+
+.capalivro {
   width: 120px;
   height: 180px;
   border-radius: 8px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  flex-shrink: 0;
 }
-.cardLivro div {
+
+.cardLivro > div {
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 8px;
+  flex: 1;
 }
+
 .cardLivro h2 {
   font-size: 1.5rem;
   color: #333;
   margin: 0;
   font-weight: 700;
 }
+
 .cardLivro h3 {
   font-size: 1rem;
   color: #8f56c7;
   margin: 0;
   font-weight: 600;
 }
+
 .cardLivro h4 {
   font-size: 0.9rem;
   color: #666;
   margin: 0;
   font-weight: 400;
+}
+
+.avaliacao-container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 8px;
+  flex-wrap: wrap;
+}
+
+.avaliacao-container strong {
+  font-size: 0.95rem;
+  color: #333;
+}
+
+.btn-avaliar {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  background-color: #8f56c7;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.btn-avaliar:hover {
+  background-color: #7744a1;
+}
+
+.cardLivro-link {
+  text-decoration: none;
+  color: inherit;
 }

@@ -7,7 +7,19 @@
       "genero": "Autoajuda / Psicologia",
       "editora": "Objetiva",
       "ano": 2012,
-      "imagem": "https://m.media-amazon.com/images/I/815iPX0SgkL._SY425_.jpg"
+      "imagem": "https://m.media-amazon.com/images/I/815iPX0SgkL._SY425_.jpg",
+      "nomes": [
+        "Leonardo",
+        "Julia"
+      ],
+      "comentarios": [
+        "Bom",
+        "Mediano, meio chato"
+      ],
+      "notas": [
+        2,
+        3
+      ]
     },
     {
       "id": "2",
@@ -16,7 +28,16 @@
       "genero": "Biografia / Esporte",
       "editora": "Global Editora",
       "ano": 2009,
-      "imagem": "https://m.media-amazon.com/images/I/71b-XOvFhuL._SY385_.jpg"
+      "imagem": "https://m.media-amazon.com/images/I/71b-XOvFhuL._SY385_.jpg",
+      "nomes": [
+        "Joao"
+      ],
+      "comentarios": [
+        "Muito bom"
+      ],
+      "notas": [
+        4
+      ]
     },
     {
       "id": "3",
@@ -25,7 +46,10 @@
       "genero": "Desenvolvimento Pessoal",
       "editora": "Editora Sextante",
       "ano": 2006,
-      "imagem": "https://m.media-amazon.com/images/I/81WzW3xJb5L._SY466_.jpg"
+      "imagem": "https://m.media-amazon.com/images/I/81WzW3xJb5L._SY466_.jpg",
+      "nomes": [],
+      "comentarios": [],
+      "notas": []
     },
     {
       "id": "4",
@@ -34,7 +58,10 @@
       "genero": "Produtividade / Desenvolvimento Pessoal",
       "editora": "Buzz Editora",
       "ano": 2018,
-      "imagem": "https://m.media-amazon.com/images/I/71xbMtThHVL._SY425_.jpg"
+      "imagem": "https://m.media-amazon.com/images/I/71xbMtThHVL._SY425_.jpg",
+      "nomes": [],
+      "comentarios": [],
+      "notas": []
     },
     {
       "id": "5",
@@ -43,7 +70,10 @@
       "genero": "Finanças / Fábula Motivacional",
       "editora": "Harper Business",
       "ano": 2017,
-      "imagem": "https://m.media-amazon.com/images/I/61jxhn1rAWL._SY466_.jpg"
+      "imagem": "https://m.media-amazon.com/images/I/61jxhn1rAWL._SY466_.jpg",
+      "nomes": [],
+      "comentarios": [],
+      "notas": []
     },
     {
       "id": "6",
@@ -52,7 +82,10 @@
       "genero": "Finanças Pessoais / Educação Financeira",
       "editora": "Alta Books",
       "ano": 2017,
-      "imagem": "https://m.media-amazon.com/images/I/51UjO3YMafL._SY445_SX342_ML2_.jpg"
+      "imagem": "https://m.media-amazon.com/images/I/51UjO3YMafL._SY445_SX342_ML2_.jpg",
+      "nomes": [],
+      "comentarios": [],
+      "notas": []
     },
     {
       "id": "6e74",
@@ -61,7 +94,10 @@
       "genero": "Autoajuda",
       "editora": "Harper Business",
       "ano": 2021,
-      "imagem": "https://m.media-amazon.com/images/I/71vZp6yONLL._AC_UY327_FMwebp_QL65_.jpg"
+      "imagem": "https://m.media-amazon.com/images/I/71vZp6yONLL._AC_UY327_FMwebp_QL65_.jpg",
+      "nomes": [],
+      "comentarios": [],
+      "notas": []
     },
     {
       "id": "6a0b",
@@ -70,7 +106,10 @@
       "genero": "Autoajuda",
       "editora": "Alta Life",
       "ano": "2019",
-      "imagem": "https://m.media-amazon.com/images/I/51DOkmV31rL._SY445_SX342_ML2_.jpg"
+      "imagem": "https://m.media-amazon.com/images/I/51DOkmV31rL._SY445_SX342_ML2_.jpg",
+      "nomes": [],
+      "comentarios": [],
+      "notas": []
     }
   ]
 }

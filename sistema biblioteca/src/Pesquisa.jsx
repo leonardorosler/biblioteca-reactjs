@@ -39,13 +39,13 @@ export default function Pesquisa() {
                         <label>Digite o nome do Livro:</label>
                         <input type="text"  {...register("nomeLivro")} required/>
                     </p>
-                    <div className="botoes">
+                    <div className="botoes__pesquisa">
                         <button type='submit'>Pesquisar</button>
                         <button type='button' onClick={() => setLivros(livrosOriginais)}>Limpar Pesquisa</button>
                     </div>
                 </form>
             </div>
-            <ListaLivros livros={livros} />
+            <ListaLivros livros={livros} setLivros={setLivros} />
         </>
     )
 }

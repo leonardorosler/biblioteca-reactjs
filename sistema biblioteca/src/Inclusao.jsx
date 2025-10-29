@@ -126,7 +126,7 @@ export default function Inclusao() {
                     </div>
                 </form>
             </div>
-            <ListaLivros livros={livros} />
+            <ListaLivros livros={livros} setLivros={setLivros} />
         </>
     )
 }
