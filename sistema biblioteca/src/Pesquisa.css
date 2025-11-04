@@ -16,10 +16,10 @@
 
 .pesquisaLivros h1 {
   text-align: center;
-  color: #8f56c7;
+  color: #3950b9;
   margin-bottom: 20px;
 }
-
+  
 .pesquisaLivros form {
   display: flex;
   flex-direction: column;
@@ -43,7 +43,7 @@
 }
 
 .pesquisaLivros button {
-  background-color: #8f56c7;
+  background-color: #3950b9;
   color: white;
   border: none;
   padding: 10px 15px;
@@ -62,7 +62,7 @@
 }
 
 .botoes__pesquisa button {
-    background-color: #8f56c7;
+    background-color: #3950b9;
     color: white;
     border: none;
     padding: 12px 30px;
@@ -74,7 +74,7 @@
 }
 
 .botoes__pesquisa button:hover {
-    background-color: #7a46b2; 
+    background-color: #1e2b64; 
     transform: scale(1.05);
 }
 

@@ -10,33 +10,48 @@
       "imagem": "https://m.media-amazon.com/images/I/815iPX0SgkL._SY425_.jpg",
       "nomes": [
         "Leonardo",
-        "Julia"
+        "Julia",
+        "Joao"
       ],
       "comentarios": [
         "Bom",
-        "Mediano, meio chato"
+        "Mediano, meio chato",
+        "Muito didático, com vários exemplos ilustrados, ficando fácil entender vários conceitos!"
       ],
       "notas": [
         2,
-        3
+        3,
+        4
       ]
     },
     {
       "id": "2",
-      "titulo": "Ayrton Senna: uma Lenda a Toda Velocidade",
+      "titulo": "Uma Lenda a Toda Velocidade",
       "autor": "Christopher Hilton",
       "genero": "Biografia / Esporte",
       "editora": "Global Editora",
       "ano": 2009,
       "imagem": "https://m.media-amazon.com/images/I/71b-XOvFhuL._SY385_.jpg",
       "nomes": [
-        "Joao"
+        "Joao",
+        "Joao ",
+        "Leonardo",
+        "matue",
+        "Arthur"
       ],
       "comentarios": [
-        "Muito bom"
+        "Muito bom",
+        "Bom",
+        "Excelente",
+        "qqq",
+        "Chato"
       ],
       "notas": [
-        4
+        4,
+        4,
+        4,
+        2,
+        2
       ]
     },
     {
@@ -47,9 +62,18 @@
       "editora": "Editora Sextante",
       "ano": 2006,
       "imagem": "https://m.media-amazon.com/images/I/81WzW3xJb5L._SY466_.jpg",
-      "nomes": [],
-      "comentarios": [],
-      "notas": []
+      "nomes": [
+        "Monique",
+        "Marta"
+      ],
+      "comentarios": [
+        "Me senti entediada",
+        "Muito bom"
+      ],
+      "notas": [
+        1,
+        5
+      ]
     },
     {
       "id": "4",
@@ -110,6 +134,15 @@
       "nomes": [],
       "comentarios": [],
       "notas": []
+    },
+    {
+      "id": "fc4e",
+      "titulo": "Entendendo Algoritmos",
+      "autor": "Aditya Y. Bhargava",
+      "genero": "Didático",
+      "editora": "Novatec",
+      "ano": "2017",
+      "imagem": "https://m.media-amazon.com/images/I/71Vkg7GfPFL._SL1296_.jpg"
     }
   ]
 }

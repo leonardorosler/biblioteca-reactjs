@@ -32,12 +32,12 @@ export default function Inclusao() {
         reset();
     }
 
-    useEffect( () => {
+    useEffect(() => {
         async function buscarLivros() {
-          const resposta = await fetch("http://localhost:3000/livros")
-          const dados = await resposta.json()
-          setLivros(dados)
-          setLivrosOriginais(dados)
+            const resposta = await fetch("http://localhost:3000/livros")
+            const dados = await resposta.json()
+            setLivros(dados)
+            setLivrosOriginais(dados)
         }
         buscarLivros()
     }, [])
@@ -46,19 +46,19 @@ export default function Inclusao() {
         setFocus("titulo");
     }, []);
 
-    return(
+    return (
         <>
             <Cabecalho />
             <div className="incluiLivros">
-            <h1><img src="/add-lilas.png" /> Inclusão de Livros</h1>
+                <h1><img src="/add-lilas.png" /> Inclusão de Livros</h1>
                 <form onSubmit={handleSubmit(cadastraLivros)}>
                     <p>
                         <label>Titulo do Livro:</label>
-                        <input type="text"  {...register("titulo")} required/>
+                        <input type="text"  {...register("titulo")} required />
                     </p>
                     <p>
                         <label>Nome do autor:</label>
-                        <input type="text"  {...register("autor")} required/>
+                        <input type="text"  {...register("autor")} required />
                     </p>
                     <p>
                         <label>Gênero do livro:</label>
@@ -93,7 +93,7 @@ export default function Inclusao() {
                     </p>
                     <p>
                         <label>Nome da editora:</label>
-                        <input type="text" {...register("editora")} required/>
+                        <input type="text" {...register("editora")} required />
                     </p>
                     <p>
                         <label>Ano de publicação:</label>
@@ -118,9 +118,9 @@ export default function Inclusao() {
                     </p>
                     <p>
                         <label>URL da capa do livro:</label>
-                        <input type="text" {...register("imagem")} placeholder="https://exemplo.com/capa.jpg" required/>
+                        <input type="text" {...register("imagem")} placeholder="https://exemplo.com/capa.jpg" required />
                     </p>
-                    
+
                     <div className="botao">
                         <button type='submit'>Incluir</button>
                     </div>

@@ -17,7 +17,7 @@
 
 .incluiLivros h1 {
     text-align: center;
-    color: #8f56c7;
+    color: #3950b9;
     margin-bottom: 25px;
 }
 
@@ -55,10 +55,11 @@
     display: flex;
     justify-content: center;
     margin-top: 10px;
+    align-items: center;
 }
 
 .incluiLivros button {
-    background-color: #8f56c7;
+    background-color: #3950b9;
     color: white;
     border: none;
     padding: 12px 30px;
@@ -70,6 +71,7 @@
 }
 
 .incluiLivros button:hover {
-    background-color: #7a46b2; 
+    background-color: #1e2b64; 
     transform: scale(1.05);
 }
+
