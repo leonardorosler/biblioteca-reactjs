@@ -9,8 +9,8 @@ export default function Cabecalho() {
                 <div className="cabecalho__logo">
                     <img src="/livro-aberto.png" alt="Livro aberto" className='logo__livros'/>
                     <div className='titulo'>
-                        <h1>Biblioteca Familiar</h1>
-                        <p>Controle de livros lidos pelos membros da familia</p>
+                        <h1>Biblioteca</h1>
+                        <p>Controle de livros - Cadastro, filtragem por nome e avaliação</p>
                     </div>
                 </div>
             </header>
