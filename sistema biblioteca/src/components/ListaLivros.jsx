@@ -10,11 +10,9 @@ const MySwal = withReactContent(Swal);
 export default function ListaLivros({ livros, setLivros }) {
   const { register, handleSubmit, reset } = useForm();
 
-  // ---- Função para enviar avaliação ----
   async function enviarComentario(data, livro) {
     const { nome, comentario, nota } = data;
 
-    // Atualiza o objeto do livro com as novas informações
     const livroAlterado = {
       ...livro,
       nomes: [...livro.nomes, nome],
@@ -31,7 +29,6 @@ export default function ListaLivros({ livros, setLivros }) {
 
       if (!resposta.ok) throw new Error("Erro ao incluir avaliação...");
 
-      // Mensagem de sucesso
       MySwal.fire({
         position: "top-end",
         icon: "success",
@@ -54,7 +51,6 @@ export default function ListaLivros({ livros, setLivros }) {
     reset(); // limpa os campos do formulário
   }
 
-  // ---- Abre a janela de avaliação ----
   function avaliarLivro(e, livro) {
     e.preventDefault(); // impede o <Link> de navegar
     e.stopPropagation();

@@ -11,17 +11,20 @@
       "nomes": [
         "Leonardo",
         "Julia",
-        "Joao"
+        "Joao",
+        "Gabriele"
       ],
       "comentarios": [
         "Bom",
         "Mediano, meio chato",
-        "Muito didático, com vários exemplos ilustrados, ficando fácil entender vários conceitos!"
+        "Muito didático, com vários exemplos ilustrados, ficando fácil entender vários conceitos!",
+        "Muito Ruim"
       ],
       "notas": [
         2,
         3,
-        4
+        4,
+        1
       ]
     },
     {
@@ -95,9 +98,15 @@
       "editora": "Harper Business",
       "ano": 2017,
       "imagem": "https://m.media-amazon.com/images/I/61jxhn1rAWL._SY466_.jpg",
-      "nomes": [],
-      "comentarios": [],
-      "notas": []
+      "nomes": [
+        "Joao"
+      ],
+      "comentarios": [
+        "Bom"
+      ],
+      "notas": [
+        4
+      ]
     },
     {
       "id": "6",
@@ -136,13 +145,22 @@
       "notas": []
     },
     {
-      "id": "fc4e",
+      "id": "4ed5",
       "titulo": "Entendendo Algoritmos",
       "autor": "Aditya Y. Bhargava",
       "genero": "Didático",
       "editora": "Novatec",
       "ano": "2017",
-      "imagem": "https://m.media-amazon.com/images/I/71Vkg7GfPFL._SL1296_.jpg"
+      "imagem": "https://m.media-amazon.com/images/I/71Vkg7GfPFL._SL1296_.jpg",
+      "nomes": [
+        "Carlos"
+      ],
+      "comentarios": [
+        "Mediano"
+      ],
+      "notas": [
+        3
+      ]
     }
   ]
 }

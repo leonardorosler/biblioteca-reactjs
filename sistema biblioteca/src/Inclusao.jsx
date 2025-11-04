@@ -18,7 +18,8 @@ export default function Inclusao() {
             const resposta = await fetch("http://localhost:3000/livros", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
-                body: JSON.stringify({ titulo, autor, genero, editora, ano, imagem })
+                body: JSON.stringify({ titulo, autor, genero, editora, ano, imagem,
+                     nomes: [], comentarios: [], notas: [] })
             });
 
             if (!resposta.ok) throw new Error("Erro ao incluir o livro");
